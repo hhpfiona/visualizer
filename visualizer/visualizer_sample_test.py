@@ -316,4 +316,4 @@ class TestChessTree:
 
 
 if __name__ == '__main__':
-    pytest.main(['a2_sample_test.py'])
+    pytest.main(['visualizer_sample_test.py'])

@@ -20,16 +20,6 @@ def print_items(d: str = os.path.join(".", "example-directory")
 
 
 if __name__ == '__main__':
-    # Put in a path for a directory, like
-    # 'C:\\Users\\David\\Documents\\csc148\\assignments' (Windows) or
-    # '/Users/dianeh/Documents/courses/csc148/assignments' (OSX)
-    # to print the contents of that directory.
-    # Tips:
-    # . means the current directory
-    # .. means the parent directory of the current directory
-    # these can be useful for specifying relative paths and aren't
-    # dependent on the full path, which is specific to you and your
-    # file structure on your computer.
     # As a default, we've specified PATH to be for the example
     # directory provided in the starter code zip file.
     PATH = os.path.join(".", "example-directory")
